@@ -1,0 +1,49 @@
+nav{
+    background: #6610f2 !important;
+    color: white;
+}
+.log{
+    background: white;
+    border-radius: 100%;
+    margin-right: 9px;
+    border: 4px solid lime;
+}
+.options{
+    margin-top: 2rem;
+    padding: 3rem;
+    margin-left: 29rem;
+}
+.gh{
+    margin: 4px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    padding-top: 200px;
+    margin-left: 32rem;
+  }
+  
+  form {
+    width: 445px;
+    background: white;
+    padding: 16px;
+    border-radius: 1em;
+    border: 2px solid purple;
+  }
+  .com{
+    height: 179px;
+  }
+  .user{
+      color: #6610f2 !important;
+  }

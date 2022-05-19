@@ -1,0 +1,27 @@
+<body class="text-center">
+  
+<main class="form-signin">
+<form>
+  <img class="mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+  <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+  <div class="form-floating">
+    <!-- <input [(ngModel)]="person.firstName" name="first"> -->
+    <input type="txt" [(ngModel)]="dapp.user" class="form-control" [ngModelOptions]="{standalone: true}"  placeholder="enter user">
+    <label for="floatingInput">User</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" [(ngModel)]="dapp.clave" class="form-control" [ngModelOptions]="{standalone: true}" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
+
+  <button class="w-100 btn btn-lg btn-primary" (click)="onSubmit()">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">SoftGNet &copy;2022</p>
+</form>
+<div class="com">
+  
+</div>
+</main>
+
+
+  
